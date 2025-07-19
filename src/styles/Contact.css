@@ -1,0 +1,103 @@
+.contact {
+    padding: 4rem 2rem;
+    background-color: white;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #3498db;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#email {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.copy-btn {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.copy-btn:hover {
+    background-color: #229954;
+}
+
+.social-icons {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    padding: 0.7rem 1.5rem;
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.social-icons a:hover {
+    background-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+}
+
+.resume-btn {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.resume-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(41, 128, 185, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact {
+        padding: 2rem 1rem;
+    }
+    
+    .contact h2 {
+        font-size: 2rem;
+    }
+    
+    .social-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-icons a {
+        width: 200px;
+        margin: 0.5rem 0;
+    }
+}
